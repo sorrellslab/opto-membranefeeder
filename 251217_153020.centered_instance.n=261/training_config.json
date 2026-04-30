@@ -1,0 +1,516 @@
+{
+    "data": {
+        "labels": {
+            "training_labels": "/Volumes/LaCie/Old Optomembrane Models/optomembrane final 11-26-25.slp",
+            "validation_labels": null,
+            "validation_fraction": 0.1,
+            "test_labels": null,
+            "split_by_inds": false,
+            "training_inds": [
+                227,
+                19,
+                50,
+                192,
+                229,
+                118,
+                237,
+                74,
+                147,
+                157,
+                42,
+                175,
+                189,
+                140,
+                41,
+                142,
+                187,
+                106,
+                91,
+                134,
+                30,
+                253,
+                57,
+                233,
+                249,
+                235,
+                76,
+                86,
+                96,
+                3,
+                154,
+                26,
+                245,
+                89,
+                259,
+                104,
+                199,
+                52,
+                252,
+                131,
+                163,
+                166,
+                223,
+                143,
+                55,
+                205,
+                97,
+                132,
+                64,
+                144,
+                49,
+                90,
+                212,
+                194,
+                8,
+                185,
+                123,
+                81,
+                243,
+                77,
+                240,
+                177,
+                37,
+                160,
+                75,
+                238,
+                107,
+                94,
+                48,
+                63,
+                18,
+                153,
+                66,
+                67,
+                198,
+                236,
+                125,
+                156,
+                193,
+                87,
+                93,
+                23,
+                206,
+                221,
+                16,
+                219,
+                151,
+                239,
+                141,
+                258,
+                184,
+                34,
+                172,
+                179,
+                5,
+                145,
+                103,
+                135,
+                108,
+                4,
+                83,
+                20,
+                115,
+                246,
+                178,
+                2,
+                176,
+                256,
+                170,
+                130,
+                126,
+                44,
+                65,
+                155,
+                21,
+                101,
+                58,
+                209,
+                11,
+                242,
+                218,
+                84,
+                114,
+                60,
+                15,
+                230,
+                109,
+                226,
+                79,
+                51,
+                112,
+                162,
+                203,
+                257,
+                124,
+                45,
+                46,
+                213,
+                24,
+                59,
+                128,
+                148,
+                39,
+                70,
+                146,
+                138,
+                47,
+                207,
+                32,
+                7,
+                136,
+                201,
+                43,
+                244,
+                78,
+                98,
+                72,
+                119,
+                214,
+                9,
+                25,
+                6,
+                241,
+                158,
+                10,
+                129,
+                169,
+                110,
+                133,
+                12,
+                68,
+                231,
+                38,
+                224,
+                100,
+                196,
+                222,
+                167,
+                180,
+                99,
+                22,
+                149,
+                197,
+                80,
+                150,
+                82,
+                139,
+                168,
+                232,
+                174,
+                88,
+                28,
+                234,
+                260,
+                225,
+                121,
+                105,
+                111,
+                211,
+                0,
+                56,
+                120,
+                127,
+                164,
+                183,
+                95,
+                181,
+                69,
+                165,
+                210,
+                250,
+                182,
+                40,
+                254,
+                62,
+                217,
+                31,
+                29,
+                113,
+                85,
+                220,
+                122,
+                1,
+                251,
+                248,
+                13,
+                161,
+                204,
+                61,
+                102,
+                27,
+                195,
+                171,
+                247,
+                255
+            ],
+            "validation_inds": [
+                159,
+                35,
+                36,
+                216,
+                190,
+                137,
+                17,
+                208,
+                14,
+                152,
+                215,
+                188,
+                186,
+                117,
+                116,
+                200,
+                191,
+                33,
+                228,
+                71,
+                173,
+                53,
+                73,
+                202,
+                92,
+                54
+            ],
+            "test_inds": null,
+            "search_path_hints": [
+                ""
+            ],
+            "skeletons": [
+                {
+                    "directed": true,
+                    "graph": {
+                        "name": null,
+                        "num_edges_inserted": 2
+                    },
+                    "links": [
+                        {
+                            "edge_insert_idx": 0,
+                            "key": 0,
+                            "source": {
+                                "py/object": "sleap.skeleton.Node",
+                                "py/state": {
+                                    "py/tuple": [
+                                        "head",
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "target": {
+                                "py/object": "sleap.skeleton.Node",
+                                "py/state": {
+                                    "py/tuple": [
+                                        "thorax",
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "type": {
+                                "py/reduce": [
+                                    {
+                                        "py/type": "sleap.skeleton.EdgeType"
+                                    },
+                                    {
+                                        "py/tuple": [
+                                            1
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "edge_insert_idx": 1,
+                            "key": 0,
+                            "source": {
+                                "py/id": 2
+                            },
+                            "target": {
+                                "py/object": "sleap.skeleton.Node",
+                                "py/state": {
+                                    "py/tuple": [
+                                        "abdomen",
+                                        1.0
+                                    ]
+                                }
+                            },
+                            "type": {
+                                "py/id": 3
+                            }
+                        }
+                    ],
+                    "multigraph": true,
+                    "nodes": [
+                        {
+                            "id": {
+                                "py/id": 1
+                            }
+                        },
+                        {
+                            "id": {
+                                "py/id": 2
+                            }
+                        },
+                        {
+                            "id": {
+                                "py/id": 4
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "preprocessing": {
+            "ensure_rgb": false,
+            "ensure_grayscale": false,
+            "imagenet_mode": null,
+            "input_scaling": 1.0,
+            "pad_to_stride": 1,
+            "resize_and_pad_to_target": true,
+            "target_height": 964,
+            "target_width": 1288
+        },
+        "instance_cropping": {
+            "center_on_part": "thorax",
+            "crop_size": 96,
+            "crop_size_detection_padding": 16
+        }
+    },
+    "model": {
+        "backbone": {
+            "leap": null,
+            "unet": {
+                "stem_stride": null,
+                "max_stride": 16,
+                "output_stride": 4,
+                "filters": 24,
+                "filters_rate": 2.0,
+                "middle_block": true,
+                "up_interpolate": true,
+                "stacks": 1
+            },
+            "hourglass": null,
+            "resnet": null,
+            "pretrained_encoder": null
+        },
+        "heads": {
+            "single_instance": null,
+            "centroid": null,
+            "centered_instance": {
+                "anchor_part": "thorax",
+                "part_names": [
+                    "head",
+                    "thorax",
+                    "abdomen"
+                ],
+                "sigma": 2.5,
+                "output_stride": 4,
+                "loss_weight": 1.0,
+                "offset_refinement": false
+            },
+            "multi_instance": null,
+            "multi_class_bottomup": null,
+            "multi_class_topdown": null
+        },
+        "base_checkpoint": null
+    },
+    "optimization": {
+        "preload_data": true,
+        "augmentation_config": {
+            "rotate": true,
+            "rotation_min_angle": -15.0,
+            "rotation_max_angle": 15.0,
+            "translate": false,
+            "translate_min": -5,
+            "translate_max": 5,
+            "scale": false,
+            "scale_min": 1.0,
+            "scale_max": 1.0,
+            "uniform_noise": false,
+            "uniform_noise_min_val": 0.0,
+            "uniform_noise_max_val": 10.0,
+            "gaussian_noise": false,
+            "gaussian_noise_mean": 5.0,
+            "gaussian_noise_stddev": 1.0,
+            "contrast": false,
+            "contrast_min_gamma": 0.5,
+            "contrast_max_gamma": 2.0,
+            "brightness": false,
+            "brightness_min_val": 0.0,
+            "brightness_max_val": 10.0,
+            "random_crop": false,
+            "random_crop_height": 256,
+            "random_crop_width": 256,
+            "random_flip": true,
+            "flip_horizontal": false
+        },
+        "online_shuffling": true,
+        "shuffle_buffer_size": 128,
+        "prefetch": true,
+        "batch_size": 4,
+        "batches_per_epoch": 453,
+        "min_batches_per_epoch": 200,
+        "val_batches_per_epoch": 50,
+        "min_val_batches_per_epoch": 10,
+        "epochs": 200,
+        "optimizer": "adam",
+        "initial_learning_rate": 0.0001,
+        "learning_rate_schedule": {
+            "reduce_on_plateau": true,
+            "reduction_factor": 0.5,
+            "plateau_min_delta": 1e-06,
+            "plateau_patience": 5,
+            "plateau_cooldown": 3,
+            "min_learning_rate": 1e-08
+        },
+        "hard_keypoint_mining": {
+            "online_mining": false,
+            "hard_to_easy_ratio": 2.0,
+            "min_hard_keypoints": 2,
+            "max_hard_keypoints": null,
+            "loss_scale": 5.0
+        },
+        "early_stopping": {
+            "stop_training_on_plateau": true,
+            "plateau_min_delta": 0.0001,
+            "plateau_patience": 10
+        }
+    },
+    "outputs": {
+        "save_outputs": true,
+        "run_name": "251217_153020.centered_instance.n=261",
+        "run_name_prefix": "",
+        "run_name_suffix": "",
+        "runs_folder": "/Volumes/LaCie/Old Optomembrane Models/models",
+        "tags": [
+            ""
+        ],
+        "save_visualizations": true,
+        "keep_viz_images": false,
+        "zip_outputs": false,
+        "log_to_csv": true,
+        "checkpointing": {
+            "initial_model": false,
+            "best_model": true,
+            "every_epoch": false,
+            "latest_model": false,
+            "final_model": false
+        },
+        "tensorboard": {
+            "write_logs": false,
+            "loss_frequency": "epoch",
+            "architecture_graph": false,
+            "profile_graph": false,
+            "visualizations": true
+        },
+        "zmq": {
+            "subscribe_to_controller": true,
+            "controller_address": "tcp://127.0.0.1:9000",
+            "controller_polling_timeout": 10,
+            "publish_updates": true,
+            "publish_address": "tcp://127.0.0.1:9001"
+        }
+    },
+    "name": "",
+    "description": "",
+    "sleap_version": "1.4.1",
+    "filename": "/Volumes/LaCie/Old Optomembrane Models/models/251217_153020.centered_instance.n=261/training_config.json"
+}
