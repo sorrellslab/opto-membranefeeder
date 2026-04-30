@@ -17,5 +17,5 @@ Design files and code for running the opto-membrane feeder (OMF) behavior assay 
 ## Repository Structure
 ```text
 ├── Arduino/                          # Arduino code for stimulus delivery
-├── Laser_cutter_templates/           # Laser cutter schmatics to create the OMF assay, mosquito canisters, and blood holder
+├── Laser_cutter_templates/           # Laser cutter schematics to create the OMF assay, mosquito canisters, and blood holder - thick is for 0.125 inch acrylic and thin is for 0.0625 inch acrylic
 ├── models/                           # SLEAP bottom-up model used to predict OMF videos
