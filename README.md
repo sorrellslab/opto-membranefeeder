@@ -16,3 +16,4 @@ Design files and code for running the opto-membrane feeder (OMF) behavior assay 
 ```text
 ├── Arduino                           # Arduino code for stimulis delivery
 ├── Laser_cutter_templates/           # Schmatics for making mosquito canisters
+├── models/                           # SLEAP bottom-up model used to predict OMF videos
